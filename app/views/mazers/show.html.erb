@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @mazer.Name %>
+</p>
+
+<p>
+  <strong>Age:</strong>
+  <%= @mazer.age %>
+</p>
+
+<%= link_to 'Edit', edit_mazer_path(@mazer) %> |
+<%= link_to 'Back', mazers_path %>
